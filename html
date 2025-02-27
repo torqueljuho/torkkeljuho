@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juho Torkkel - IT-asiantuntija</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-video">
+        <video autoplay loop muted>
+            <source src="https://videos.pexels.com/video-files/853789/853789-hd_1920_1080_25fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <header>
+        <div class="profile">
+            <div class="profile-pic">
+                <img src="IMG_8521.jpeg" alt="Profiilikuva">
+            </div>            
+            <h1>Juho Torkkel</h1>
+            <h2>IT-asiantuntija</h2>
+            <p class="quote">"You miss 100% of the shots you don’t take." - Wayne Gretzky – Michael Scott</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showPage('cv')" class="nav-btn">CV</a></li>
+                <li><a href="#" onclick="showPage('portfolio')" class="nav-btn">Portfolio</a></li>
+                <li><a href="#" onclick="showPage('about')" class="nav-btn">About me</a></li>
+                <li><a href="#" onclick="showPage('contact')" class="nav-btn">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-box" id="content">
+            <!-- CV -->
+            <section id="cv" class="page">
+                <h2>CV</h2>
+        
+                <div class="cv-images">
+                    <img src="kokemuscv.png" alt="CV-kuva 1">
+                    <img src="suosituscv.png" alt="CV-kuva 2">
+                </div>
+            </section>
+    
+            <!-- Portfolio (vain harmaat boksit) -->
+            <section id="portfolio" class="page">
+                <h2>Portfolio</h2>
+                <div class="skills-boxes">
+                    <div class="skill-box">Mobileapp development</div>
+                    <div class="skill-box">PowerBI</div>
+                    <div class="skill-box">VBA</div>
+                </div>
+            </section>
+    
+            <!-- About Me (siirrettiin kuvat tänne) -->
+            <section id="about" class="page">
+                <h2>About Me</h2>
+                <p>Hei!
+                    Olen kunnianhimoinen IT-osaaja, jolla on osaamista Power BI -ratkaisuista, IT-tuesta ja luovasta ongelmanratkaisusta, tavoitteenani tuoda aina lisäarvoa projekteille ja organisaatioille.
+                    Tykkään vapaa-ajallani retkeillä, tehdä musiikkia ja pelata futsalia.</p>
+                <div class="about-images">
+                    <div class="about-item">
+                        <img src="image (3).png" alt="Portfolio-kuva 1">
+                        <p>Projektin kuvaus 1</p>
+                    </div>
+                    <div class="about-item">
+                        <img src="image (4).png" alt="Portfolio-kuva 2">
+                        <p>Projektin kuvaus 2</p>
+                    </div>
+                    <div class="about-item">
+                        <img src="image (5).png" alt="Portfolio-kuva 3">
+                        <p>Projektin kuvaus 3</p>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Contact -->
+            <section id="contact" class="page">
+                <h2>Contact</h2>
+                <p>Ota yhteyttä, niin keskustellaan lisää!</p>
+                <div class="contact-images">
+                    <img src="puhnumerocv.png" alt="Yhteyskuva 1">
+                    <img src="sposticv.png" alt="Yhteyskuva 2">
+                    <img src="linkedincv.png" alt="Yhteyskuva 3">
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    
+
+    <script src="script.js"></script> <!-- Liitä JavaScript-tiedosto -->
+</body>
+</html>
